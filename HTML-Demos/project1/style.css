@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Pacifico&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+h1{
+    color:tomato;
+    background-color:green;
+    padding:20px;
+    font-family: "Libre Baskerville", serif;
+    text-align:center;
+}
+
+img{
+    display:block;
+    margin:auto;
+}

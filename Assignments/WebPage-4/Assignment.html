@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <ul>
+        <li><a href="./hyd.html">Hyderabad</a></li>
+        <li><a href="./chennai.html">Chennai</a></li>
+        <li><a href="./Banglore.html">Banglore</a></li>
+    </ul>
+
+
+    <!-- table -->
+    <table>
+        <thead>
+            <tr>
+                <th>SNo</th>
+                <th>Full Name</th>
+                <th>Position</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Jyosna</td>
+                <td>Manager</td>
+                <td>400000</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- table for student -->
+
+    <table>
+        <thead>
+            <tr>
+                <th>SNo</th>
+                <th>Full Name</th>
+                <th>Subject</th>
+                <th>Marks</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="3">1</td>
+                <td rowspan="3">Chandu</td>
+                <td>Maths</td>
+                <td>90</td>
+            </tr>
+            <tr>
+
+                <td>Physics</td>
+                <td>70</td>
+            </tr>
+            <tr>
+
+                <td>Computer Science</td>
+                <td>87</td>
+            </tr>
+
+            <tr>
+                <td rowspan="3">2</td>
+                <td rowspan="3">Jyosna</td>
+                <td>Maths</td>
+                <td>78</td>
+            </tr>
+            <tr>
+
+                <td>Physics</td>
+                <td>89</td>
+            </tr>
+            <tr>
+
+                <td>Computer Science</td>
+                <td>67</td>
+            </tr>
+
+        </tbody>
+    </table>
+
+
+
+    <!-- column span -->
+    <table>
+        <thead>
+            <th>Name</th>
+            <th>Expense</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Arun</td>
+                <td>$10</td>
+            </tr>
+            <tr>
+                <td>Priya</td>
+                <td>$20</td>
+            </tr>
+            <tr>
+                <td colspan="1">$20</td>
+
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+
+<form>
+    <div>
+        <label for="user">Username:</label>
+        <input type="text" name="username" id="user" required minlength="4">
+    </div>
+    <div>
+        <!-- password -->
+        <label for="password">Password:</label>
+        <input type="password" name="Password" id="password" required>
+    </div>
+
+    <div>
+        <!-- skills -->
+        <input type="checkbox" name="skills" id="skill1" required>
+        <label for="skill1">HTML</label>
+         
+         <input type="checkbox" name="skills" id="skill2" required>
+        <label for="skill2">CSS</label>
+    </div>
+            <label>Select Gender</label>
+
+             <input type="radio" name="gender" id="female" required>
+             <label for="female">Female</label>
+
+             <input type="radio" name="gender" id="male" required>
+             <label for="male">Male</label>
+
+    <div>
+        <div>
+             <label>Select state</label>
+            <select>
+                <option>Telangana</option>
+            </select>
+        </div>
+    </div>
+    <div>
+        <!-- email -->
+        <label for="email">Email:</label>
+        <input type="text" name="Email" id="email" required>
+    </div>
+
+    <div>
+        <!-- date of birth -->
+        <label for="dob">Date OF Birth:</label>
+        <input type="date" name="Date OF Birth" id="dob">
+    </div>
+
+
+    <!-- submit button -->
+    <button type="submit">Submit</button>
+
+
+
+
+</form>
+
+</html>
